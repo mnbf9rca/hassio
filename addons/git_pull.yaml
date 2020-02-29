@@ -1,0 +1,28 @@
+deployment_key: ''
+deployment_key_protocol: rsa
+deployment_user: ''
+deployment_password: ''
+git_branch: master
+git_command: pull
+git_remote: origin
+git_prune: 'true'
+repository: 'https://github.com/mnbf9rca/hassio.git'
+auto_restart: false
+restart_ignore:
+  - ui-lovelace.yaml
+  - .gitignore
+  - shared/
+  - addons/
+  - .cloud/
+  - .gitignore
+  - .storage/
+  - OZW_Log.txt
+  - deps/
+  - home-assistant.log
+  - home-assistant_v2.db
+  - options.xml
+  - pyozw.sqlite
+  - tts
+repeat:
+  active: true
+  interval: 60
