@@ -1,0 +1,10 @@
+email: robert.aleck@cynexia.com
+domains:
+  - hass.cynexia.net
+certfile: fullchain.pem
+keyfile: privkey.pem
+challenge: dns
+dns:
+  provider: dns-route53
+  aws_access_key_id: '!secret aws_access_key_id'
+  aws_secret_access_key: '!secret aws_secret_access_key'

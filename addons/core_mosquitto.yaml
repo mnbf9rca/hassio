@@ -1,0 +1,12 @@
+logins:
+  - username: '!secret mqtt_user1_username'
+    password: '!secret mqtt_user1_password'
+  - username: '!secret mqtt_user2_username'
+    password: '!secret mqtt_user2_password'
+anonymous: false
+customize:
+  active: false
+  folder: mosquitto
+certfile: fullchain.pem
+keyfile: privkey.pem
+require_certificate: false
